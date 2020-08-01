@@ -3,6 +3,6 @@
   <TestRunParameters>
     <!-- <Parameter name="remoteWebDriverUrl" value="http://52.236.153.49:4444/wd/hub" /> -->
     <!--<Parameter name="remoteWebDriverUrl" value="http://selenium-hub:4444/wd/hub" />-->
-    <Parameter name="remoteWebDriverUrl" value="http://localhost:4444/wd/hub" />
+    <Parameter name="remoteWebDriverUrl" value="http://3.20.196.243:4444/wd/hub" />
   </TestRunParameters>
 </RunSettings>
