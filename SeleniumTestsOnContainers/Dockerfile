@@ -5,6 +5,7 @@ RUN dotnet build "SeleniumTestsOnContainers.csproj" -c Release -o /app
 ADD ../.runsettings .runsettings
 ENTRYPOINT ["dotnet", "test -s .runsettings", "--logger:trx"] # add .runsettings file
 #ENTRYPOINT ["dotnet", "vstest", "SeleniumTestsOnContainers.dll"] #, "--Tests:test_to_run"]
+#Testing
 
 #FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 #WORKDIR /app
